@@ -4,3 +4,8 @@
     height: 20vh;
     object-fit: contain;
 }
+.body>container{
+    margin: 20px;
+    padding: 20px;
+    border-style: none;
+}
