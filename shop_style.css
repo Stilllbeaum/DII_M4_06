@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    margin: 10px 20px 10px 20px;
+
+}
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 9;
+    padding: 10px;
+    justify-content: end;
+}
+.active1 {
+    margin: 10px 20px 10px 20px;
+    /*color: ;*/
+}
+.active1{
+    color: seagreen;
+}
