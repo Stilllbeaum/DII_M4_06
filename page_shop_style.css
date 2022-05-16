@@ -1,0 +1,24 @@
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 9;
+    padding:30px;
+    justify-content: end;
+}
+.active1 {
+    margin: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    color: #323232;
+}
+.active1:hover{
+    color: #4bb7c3;
+
+}
+.col-6{
+    background-color: #f7f7fb;
+}
+.d-grid gap-2 col-6 mx-auto{
+    background-color: #4bb7c3;
+    border-radius: 20px;
+}

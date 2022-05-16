@@ -1,3 +1,6 @@
+div{
+    border: 1px solid black;
+}
 .logo {
     display: flex;
     flex-direction: row;
@@ -18,4 +21,7 @@
 }
 .active1{
     color: seagreen;
+}
+.name{
+    font-size: 2rem;
 }
