@@ -24,11 +24,11 @@ body {
 }
 
 .content {
-    width: 50%;
+    width: 60%;
 }
 
 .sideboard {
-    width: 50%;
+    width: 40%;
     background-color: rgb(163, 163, 113);
     height: 400px;
 }
@@ -46,12 +46,20 @@ body {
         width: 100%;
     }
 }
-@media screen and (max-width: 767px) and (max-width: 991px){
+@media screen and (min-width: 767px) and (max-width: 991px){
     .banner{
         background-color: rgb(49, 135, 185);
     }
     .content,
     .sideboard{
         width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .content{
+        width: 50%;
+    }
+    .sideboard{
+        width: 50%;
     }
 }
