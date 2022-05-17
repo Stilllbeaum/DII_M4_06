@@ -24,11 +24,11 @@ body {
 }
 
 .content {
-    width: 60%;
+    width: 50%;
 }
 
 .sideboard {
-    width: 40%;
+    width: 50%;
     background-color: rgb(163, 163, 113);
     height: 400px;
 }
@@ -54,5 +54,4 @@ body {
     .sideboard{
         width: 100%;
     }
-
 }
